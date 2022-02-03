@@ -1,0 +1,263 @@
+@font-face {
+    font-family: "masadablack";
+    src: url("fonts/Masada-Black.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "masadamediumitalic";
+    src:url("fonts/Masada-MediumItalic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "masadabookitalic";
+    src: url("fonts/Masada-BookItalic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "masadabold";
+    src: url("fonts/Masada-Bold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "masadamedium";
+    src: url("fonts/Masada-Medium.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "arbelreg";
+    src: url("fonts/ArbelHagilda_Regular\ [Menukad].woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "arbelbold";
+    src: url("fonts/ArbelHagilda_Bold\ [Menukad].woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "masada-book";
+    src: url(fonts/Masada-Book.woff2) format(woff2);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.writer {
+    font-family:"masadamediumitalic", serif;
+    text-align: center;
+    font-size: 1.6rem;
+    width: 100%;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    margin-bottom: 0px;
+}
+
+h1 {
+    font-family: "masadablack", sans-serif;
+    font-size: 3rem;
+    letter-spacing: 0.05em;
+    /* color: #f26c50; */
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    margin-top: -2px;
+}
+
+.openimg {
+    width: 100%;
+    min-width: 400px;
+}
+
+.credit {
+    font-family: "masadabookitalic", serif;
+    font-size: 0.9em;
+    width: 100%;
+    text-align: center;
+}
+
+.opening {
+    font-family: "masada-book";
+    font-size: 1.95rem;
+    line-height: 1.1em;
+    letter-spacing: 0.025em;
+    width: 65%;
+    margin: 300px auto 400px;
+}
+
+.aboutgmp {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    font-size:0.8em;
+    letter-spacing: 0.03em;
+    line-height: 1em;
+    width: 800px ;
+    border-width: 2px;
+    border-style: solid;
+    padding:8px 25px;
+}
+
+.aboutgmp-header {
+    font-family: "masadabold", serif;
+    color: #164ee3;
+    font-size: 1.4em;
+    margin-right: -25.05;
+    margin-top:-2px;
+    margin-bottom: 0px;
+    padding: 10px;
+    border-bottom: 2px solid black;
+    width: 798px;
+    text-align: center;
+    border-color: black;
+}
+
+
+.medium {
+    font-family: "masadamedium", serif;
+}
+
+h2 {
+    font-family: "masadabold", serif;
+    font-size:1.8em;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    text-align: center;
+    margin-top: 0px auto 0px;
+}
+
+article h2 {
+    position: sticky;
+    top: 0px;
+    z-index: 3;
+}
+
+
+.aboutmain {
+    font-family: "masadabookitalic", serif;
+    font-size: 1.8em;
+    letter-spacing: 0.02em;
+    line-height: 1em;
+    width: 780px;
+    max-width: 100%;
+    margin: 100px auto 300px;
+    min-width: 380px;
+}
+
+.container {
+    display:flex;
+    width: 100%;
+    margin: 0px auto;
+    font-family: "arbelreg", serif;
+    font-size: 1.1em;
+    line-height: 1.3em;
+    height: auto;
+    width: 100%;
+    min-width: 400px;
+    margin: 100px auto;
+}
+
+
+#basal body temperature {
+    background-image: url("images/zavar.png");
+    background-position: center;
+    background-size: 60%;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}
+
+#cervicalmucus {
+    background-image: url("images/ova.png");
+    background-position: center;
+    background-size: 60%;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    position: sticky;
+}
+
+#cevicalposition {
+    background-image: url("images/uterus.png");
+    background-position: center;
+    background-size: 60%;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}
+#more {
+    display: block;
+    width: 100%;
+    margin: 200px auto;
+    font-family: "arbelreg", serif;
+    font-size: 1.1em;
+    line-height: 1.3em;
+    height: auto;
+    width: 50%;
+    min-width: 400px;
+}
+
+.right {
+    width: 25%;
+    align-self: flex-start;
+    text-align: right;
+    margin-right: 40px;
+}
+
+
+.info {
+    width: 30%;
+    margin-left: 20px;
+    padding: 10px;
+    align-self: flex-end;
+}
+
+.img {
+    width: 45%;
+}
+
+img {
+    width: 100%;
+    z-index: 1;
+    min-width: 400px;
+    margin-left: 0px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: -25px;
+ } 
+
+
+footer > h2 > a:hover {
+    color: #d24262;
+    letter-spacing: 0.06em;
+    transition: all 200ms;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+    margin: 0px;
+}
+
+#footerer {
+    margin-top: -25px;
+    border-top:none;
+    margin-bottom: 0px;
+}
+
+
