@@ -75,7 +75,9 @@ h1 {
 }
 
 .openimg {
-    width: 100%;
+    display:block;
+    margin: auto;
+    width: 80%;
     min-width: 400px;
 }
 
@@ -172,16 +174,16 @@ article h2 {
 }
 
 
-#basal body temperature {
-    background-image: url("images/zavar.png");
+#basal-body-temperature {
+    background-image: url("images/openimg.png");
     background-position: center;
-    background-size: 60%;
+    background-size: 30%;
     background-attachment: scroll;
     background-repeat: no-repeat;
 }
 
 #cervicalmucus {
-    background-image: url("images/ova.png");
+    background-image: url("images/2.png");
     background-position: center;
     background-size: 60%;
     background-attachment: scroll;
@@ -190,7 +192,7 @@ article h2 {
 }
 
 #cevicalposition {
-    background-image: url("images/uterus.png");
+    background-image: url("images/3.png");
     background-position: center;
     background-size: 60%;
     background-attachment: scroll;
@@ -232,6 +234,10 @@ img {
     z-index: 1;
     min-width: 400px;
     margin-left: 0px;
+}
+
+#summery {
+    margin-top: 500px;
 }
 
 footer {
